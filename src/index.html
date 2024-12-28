@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="./output.css" rel="stylesheet">
@@ -11,12 +13,19 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
-<body class="bg-custom-pale-blue bg-mobile-pattern bg-cover sm:bg-desktop-pattern">
-  <div class="container bg-white mx-auto m-10 max-w-[375px] rounded-3xl text-base shadow-gray-300 shadow-xl">
+
+<body class="bg-custom-pale-blue bg-mobile-pattern bg-cover px-5 sm:bg-desktop-pattern sm:bg-no-repeat flex flex-col items-center justify-center h-screen">
+  <div class="container bg-white mx-auto my-10 max-w-[375px] rounded-3xl text-base shadow-gray-300 shadow-xl">
     <div class="">
       <img src="../images/illustration-hero.svg" alt="" class="bg-cover rounded-t-3xl">
     </div>
@@ -24,9 +33,10 @@
       <div>
         <h1 class="font-bold text-xl text-custom-dark-blue">Order Summary</h1>
       </div>
-      
-        <p class="text-center text-custom-desaturated-blue leading-6">You can now listen to millions of songs, audiobooks, and podcasts on any 
-          device anywhere you like!</p>
+
+      <p class="text-center text-custom-desaturated-blue leading-6">You can now listen to millions of songs,
+        audiobooks, and podcasts on any
+        device anywhere you like!</p>
 
       <div class="flex gap-14 items-center justify-center bg-slate-200 bg-opacity-60 w-full py-4 rounded-xl">
         <div class="flex gap-6 items-center">
@@ -41,15 +51,18 @@
         </div>
       </div>
       <div class="">
-        <button class="bg-custom-bright-blue text-white hover:bg-custom-dark-blue w-full py-4 font-semibold rounded-xl shadow-gray-400 shadow-xl transition-colors duration-300 ease-in-out">Proceed to Payment</button>
+        <button
+          class="bg-custom-bright-blue text-white hover:bg-custom-dark-blue w-full py-4 font-semibold rounded-xl shadow-gray-400 shadow-xl transition-colors duration-300 ease-in-out">Proceed
+          to Payment</button>
         <button class="font-semibold text-custom-desaturated-blue w-full py-4">Cancel Order</button>
       </div>
     </div>
   </div>
-  
+
   <div class="attribution mb-3">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://social-contact-card.netlify.app/" target="_blank">Senith Vijayantha</a>.
   </div>
 </body>
+
 </html>
