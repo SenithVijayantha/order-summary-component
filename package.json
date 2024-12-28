@@ -1,0 +1,14 @@
+{
+  "name": "order-summary-component",
+  "version": "1.0.0",
+  "description": "Order summary component card-frontendmentor.io challenge",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
