@@ -15,10 +15,36 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+<body class="bg-custom-pale-blue bg-mobile-pattern bg-cover sm:bg-desktop-pattern">
+  <div class="container bg-white mx-auto m-10 max-w-[375px] rounded-3xl text-base shadow-gray-300 shadow-xl">
+    <div class="">
+      <img src="../images/illustration-hero.svg" alt="" class="bg-cover rounded-t-3xl">
+    </div>
+    <div class="py-6 container flex flex-col gap-6 px-8 text-center">
+      <div>
+        <h1 class="font-bold text-xl text-custom-dark-blue">Order Summary</h1>
+      </div>
+      
+        <p class="text-center text-custom-desaturated-blue leading-6">You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!</p>
 
-  <div class="container">
-    <h1 class="">Hello</h1>
+      <div class="flex gap-14 items-center justify-center bg-slate-200 bg-opacity-60 w-full py-4 rounded-xl">
+        <div class="flex gap-6 items-center">
+          <img class="border-2 rounded-full border-white" src="../images/icon-music.svg" alt="">
+          <div class="">
+            <span class="text-sm font-semibold block">Annual Plan</span>
+            <span class="text-sm font-semibold text-custom-desaturated-blue block"> $59.99/year</span>
+          </div>
+        </div>
+        <div>
+          <a href="#" class="text-sm font-bold text-custom-bright-blue underline">Change</a>
+        </div>
+      </div>
+      <div class="">
+        <button class="bg-custom-bright-blue text-white hover:bg-custom-dark-blue w-full py-4 font-semibold rounded-xl shadow-gray-400 shadow-xl transition-colors duration-300 ease-in-out">Proceed to Payment</button>
+        <button class="font-semibold text-custom-desaturated-blue w-full py-4">Cancel Order</button>
+      </div>
+    </div>
   </div>
 
   <!-- Order Summary
